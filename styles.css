@@ -1,0 +1,126 @@
+@charset "UTF-8";
+body{
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+#TentativaMenu{
+ margin: 0px;
+}
+#TentativaMenu ul,#TentativaMenu li {
+  list-style: none;
+}
+#TentativaMenu ul {
+  position: relative;
+}
+#TentativaMenu ul li {
+  float: left;
+  min-height: 1px;
+  vertical-align: middle;
+}
+#TentativaMenu ul li.hover,#TentativaMenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#TentativaMenu ul ul li {
+  float: none;
+}
+#TentativaMenu ul ul ul {
+  top: 0;
+  left: 100%;
+}
+#TentativaMenu ul li:hover > ul {
+  visibility: visible;
+}
+#TentativaMenu ul ul {
+  margin-top: 0;
+}
+#TentativaMenu a {
+  display: block;
+  line-height: 1em;
+  text-decoration: none;
+}
+#TentativaMenu {
+  width: auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#TentativaMenu > ul {
+  border-bottom: 1px solid #252A30;
+  border-top: 1px solid #252A30;
+  background-color: #a3adbb;
+  height: 213px;
+  padding: 15px 15px 15px 5px;
+}
+#TentativaMenu > ul > img{
+  padding-left: 14%;
+}
+#TentativaMenu > ul > li {
+  margin: 0 10px;
+}
+#TentativaMenu > ul > li.SubExercicio:hover > a {
+  border-radius: 3px 3px 0 0;
+  background-clip: padding-box;
+}
+#TentativaMenu > ul > li:hover > a {
+  background-color: #e2e2e2;
+}
+#TentativaMenu > ul > li.active:hover > a {
+  background-color: #ff7300;
+}
+#TentativaMenu ul a {
+  background-color: #ffffff;
+  border-radius: 3px;
+  background-clip: padding-box;
+  color: #3c444d;
+  font-size: 12px;
+  line-height: 27px;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+}
+#TentativaMenu ul ul {
+  width: 170px;
+}
+#TentativaMenu ul ul a {
+  border-radius: 0;
+  background-clip: padding-box;
+  line-height: 150%;
+}
+#TentativaMenu ul .active > a {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+#TentativaMenu ul .SubExercicio {
+  position: relative;
+}
+#TentativaMenu ul .SubExercicio ul {
+  border-radius: 0 3px 3px 3px;
+  background-clip: padding-box;
+  background-color: #c3c3c3;
+  padding: 5px 0;
+}
+#TentativaMenu ul .SubExercicio ul a {
+  background: none;
+  padding: 8px 8px 8px 16px;
+  border-bottom: 1px solid transparent;
+  text-align: left;
+}
+#TentativaMenu ul .SubExercicio li:hover > a {
+  color: #FFF;
+  background-color: #7b8188;
+  position: relative;
+}
+#TentativaMenu ul .active > a:after {
+  color: #FFF;
+}
+#TentativaMenu ul ul a {
+  font-size: 12px;
+}
+form{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  width: 15%;
+  display: table;
+
+}
